@@ -18,6 +18,8 @@ This repository contains a full Windows port — not a wrapper, not an emulator,
 **Windows port:** Ilia Kusmin
 
 ---
+![Dark Planet gameplay](screenshots/dpwin.png)
+
 
 ## Why this is engineering, not just a port
 
