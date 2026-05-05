@@ -268,8 +268,6 @@ var
   SX, SY: Integer;
   Alpha: Byte;
   TxtW: Integer;
-  OldBk, OldFg: COLORREF;
-  OldMode: Integer;
 begin
   { Black background }
   FBuf.Canvas.Brush.Color := clBlack;
@@ -535,8 +533,7 @@ end;
 { --- Load one screen (scene) from scenario file --- }
 procedure TForm1.LoadScreen;
 var
-  N, Xm, Ym: Integer;
-  SprIdx:    Byte;
+  N:         Integer;
   EX, EY:    Word;
   EType:     Byte;
   SName:     string;
